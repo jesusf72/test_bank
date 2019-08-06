@@ -1,0 +1,67 @@
+@charset "utf-8";
+
+@import url('content.css');
+
+/* Type Selector */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	line-height:normal;font-style:normal;
+}
+
+html,body {height:100%;	overflow:hidden;}
+body,input, select,textarea, button {font-size:13px; font-family:'맑은 고딕','Malgun Gothic','돋움',Dotum, Helvetica, sans-serif!important,Arial; -webkit-font-smoothing:subpixel-antialiased; -webkit-text-size-adjust:none; color:#4d4d4d;letter-spacing:-.6px;}
+textarea {resize:none;}
+
+/* Anchor */
+a:link {color:#333; text-decoration:none; cursor:pointer;}
+a:visited {color:#333; text-decoration:none;}
+a:hover {color:#333; text-decoration:none; cursor:pointer;}
+a:active {color:#333; text-decoration:none;}
+
+table {width:100%;}
+table, th, td {border-collapse:collapse; border-spacing:0;}
+table caption {display: none;}
+
+img {border:0px; vertical-align:top;}
+hr {display:none;}
+col {background:none;}
+li {list-style:none;}
+
+/* common */
+.mb10{margin-bottom:10px !important;}
+.mb20{margin-bottom:20px !important;}
+.mb40{margin-bottom:40px !important;}
+
+
+/* floating */
+.clearfix:after {content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+.clear {clear:both;}
+/* End hide from IE-mac */
+
+/* Form Selector */
+fieldset {border:none;}
+legend {display:none}
+form * {vertical-align:middle;}
+iframe {background:transparent;}
+
+/* form */
+input:-ms-input-placeholder{color:#999;}
+input::-webkit-input-placeholder{color:#999;}
+textarea:-ms-input-placeholder{color:#999;}
+textarea::-webkit-input-placeholder{color:#999;}
+input:focus {outline: none;}
+input{outline-style:none;} , textarea{ outline-style:none;}
