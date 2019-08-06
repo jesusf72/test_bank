@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="initial-scale=1, width=device-width, user-scalable=no">
+	<meta name="robots" content="noindex">
+	<meta http-equiv="Expires" CONTENT="-1">
+	<meta http-equiv="Pragma" content="no-cache"> 
+	<meta http-equiv="Cache-Control" content="No-Cache">
+	<title>DGB대구은행</title>
+	<link href="css/chatbot.css" rel="stylesheet">
+</head>
+<body>
+<!-- chat header -->
+<div id="chat-header">
+	<div class="header">
+		<h1>대구은행 챗봇 시스템</h1>
+		<span class="logo"><img src="img/logo.gif" alt="DGB대구은행"></span>
+	</div>
+	<div class="title">
+		<h2>김여울 (대구은행 본사, 여신담당, 차장)</h2>
+		<p class="btn">
+			<a href="#"><img src="img/btn/btn-window-close.png" alt=""></a>
+			<a href="#"><img src="img/btn/btn-window-min.png" alt="" class="btn_close"></a>
+		</p>
+	</div>
+</div>
+<!-- chat body -->
+<div id="chat-body">
+    <ol class="chat">
+		<div class="day">2018년 8월 3일</div>
+		<li class="other">
+			<div class="avatar"></div>
+			<p class="name">대구은행 챗봇</p>
+			<div class="msg">
+				<p>
+					김여울님 안녕하세요. <br>
+					대구은행 챗봇입니다.<br>
+					질문을 입력하거나 아래 질문을 선택해 주세요.
+				</p>
+				<time>오전 10:12</time>
+			</div>
+		</li>
+		<li class="self">
+			<div class="msg">
+				<p>업무담당자, 부속주소 찾기</p>
+				<time>오전 10:13</time>
+			</div>
+		</li>
+    </ol>
+</div>
+<!-- chat bottom input -->
+<div id="chat-footer">
+	<a href="#" class="btn-add"><img src="img/btn/btn-plus.png" alt=""></a>
+	<div class="chat-msg-input">
+		<input type="text" id="" name="" value="" placeholder="질문을 입력하세요." size="30" class="inputText">
+	</div>
+	<a href="#" class="send">전송</a>
+	<div class="bottom-button">
+		<div class="col">
+			<a href="#"><img src="img/btn/btn-bottom-call.png" alt=""> 상담원 전화연결</a>
+		</div>
+		<div class="col">
+			<a href="#" class="btn-knowledge-apply"><img src="img/btn/btn-bottom-knowledge.png" alt=""> 지식수정 신청</a>
+		</div>
+	</div>
+</div>
+<!-- bottom nav -->
+<div class="bottom-collapse">
+	<a href="#" class="btn"></a><a href="#" class="btn02"></a>
+	<ul>
+		<li><a href="#">홈페이지 상품몰</a></li>
+		<li><a href="#">업무담당자, 부속주소 찾기</a></li>
+		<li><a href="#">지점안내</a></li>
+		<li><a href="#">탄력영업점</a></li>
+		<li><a href="#">사고코드</a></li>
+		<li><a href="#">수수료</a></li>
+		<li><a href="#">홈페이지 상품몰</a></li>
+		<li><a href="#">업무담당자, 부속주소 찾기</a></li>
+		<li><a href="#">지점안내</a></li>
+		<li><a href="#">탄력영업점</a></li>
+		<li><a href="#">사고코드</a></li>
+		<li><a href="#">수수료</a></li>
+	</ul>
+</div>
+
+<!-- script -->
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+<!--
+	$('.bottom-collapse .btn, .bottom-collapse .btn02').on('click', function () {
+		$(this).toggleClass('on');
+		$('.bottom-collapse').toggleClass('on');
+	});
+	$('.btn-add').on('click', function () {
+		$(this).toggleClass('on');
+		$('body').toggleClass('bottom-add');
+	});
+//-->
+</script>
+</body>
+</html>
